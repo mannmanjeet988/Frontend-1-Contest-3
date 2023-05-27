@@ -162,13 +162,14 @@
     font-weight: 400;
     text-align: justify;
     justify-content: center;
-    padding:40px;
-  }
+    padding: 40px 0px;
+}
 
 
 .about-content .about-us-content{
     width:90%
 }
+
   .about-us-content .about-img{
     padding: 30px; 
     justify-content: center;
@@ -184,6 +185,9 @@
     position: relative;
     top:580px;
 }
+.menu .title{
+    font-size: 30px;
+}
 
 .menu-part1{
     display:flex;
@@ -191,6 +195,7 @@
     flex-direction: column;
     align-items:center;
     padding: 20px;
+    font-size:25px;
 }
 
 .menu-desc{
@@ -240,3 +245,117 @@
     width:250px;
     height: 180px;;
 }
+
+.find-us{
+    position: relative;
+    top:590px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color: black;
+    /* height:50px; */
+    padding: 4% 0px;
+  }
+
+  .find-us .title{
+    font-family: Quattrocento;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    text-align: center; 
+    text-decoration-line: underline;
+  }
+
+  .location-box{
+    display: flex;
+    /* justify-content: space-between; */
+  }
+
+.location-box .location, .location-box .map-img{
+    width:50%;
+    /* color:white; */
+}
+
+.location{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    color:white;
+    text-align: left;
+    /* padding: 50px 60px; */
+}
+
+.fa-location-dot, .fa-phone{
+    color:white;
+}
+
+.location-desc{
+    padding:10px;
+}
+
+.map-img{
+    padding : 50px;
+}
+.map-img img{
+    width:400px;
+    height:250px;
+}
+
+.contact-no1{
+    display: flex;
+    /* padding:10px; */
+}
+
+.contact-no1 .num{
+    display: flex;
+    flex-direction: column;
+    row-gap:5px;
+    /* padding:30px; */
+}
+
+.footer{
+    position:relative;
+    top:600px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color:white;
+}
+
+.contact-no2{
+    display: flex;
+    /* padding:10px; */
+}
+
+.contact-no2 .num{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    row-gap:5px;
+    /* padding:30px; */
+}
+
+.footer-img{
+    padding: 5px 30px;
+}
+
+.footer .footer-desc{
+    padding: 5px 30px;
+}
+
+.footer .footer-img img{
+    width: 100px;
+    height : 100px;
+}
+
+.fa-light .fa-phone{
+    font-size: 50px;
+    color : white;
+}
+
+{
+
+}
+
